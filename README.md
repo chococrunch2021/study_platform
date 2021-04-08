@@ -24,9 +24,9 @@
 ### 현재 기획 & 디자인 진행 정도
 - figma: [farm project](https://www.figma.com/file/Xbg3jRNX5lo7HNvuIb1Ebu/farm-project?node-id=66%3A388)
 <p float="left">
-    <img src="frontend/public/introduce/메인페이지.png" width="300px" alt="메인페이지"/>
-    <img src="frontend/public/introduce/게임화면.png" width="300px" alt="게임화면"/>
-    <img src="frontend/public/introduce/오프닝페이지.png" width="300px" alt="오프닝페이지"/>
+    <img src="public/readme/메인페이지.png" width="300px" alt="메인페이지"/>
+    <img src="public/readme/게임화면.png" width="300px" alt="게임화면"/>
+    <img src="public/readme/오프닝페이지.png" width="300px" alt="오프닝페이지"/>
 </p>
 
 ### SKILLS
