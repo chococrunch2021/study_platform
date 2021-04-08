@@ -1,11 +1,6 @@
 **개인 프로젝트에서 사용하는 기술은 배우고 싶거나 현재 공부하고 있는 기술을 우선 적용합니다**
 
-<p align="center">
-<img src="frontend/public/opening-demo.gif" width="600px" height="350px"/>
-</p>
-
-이 프로젝트는
-[이전 프로젝트](https://github.com/haerang94/react-study-farm-project.git)으로 만들었던 원격 교육 학습 프로그램을 다시 `emotion, NextJs, Typescript` 기반으로 개발하려고 만드는 프로젝트입니다. 
+### 프로젝트 개요
 
 교육 심리학과 대학원생인 친구의 부탁을 받아 만드는 프로젝트로 친구는 기획과 디자인을 담당하고 있습니다. 프로젝트 주 내용은 달성률에 따라서 우주 씨앗을 선물로 주고 이를 심어서 농장을 키워나가는 재미형 원격 학습보조 프로그램입니다. 
 
