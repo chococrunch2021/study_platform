@@ -7,6 +7,8 @@ font-weight:400;
 cursor:pointer;
 display:inline-block;
 line-height:1;
+border:none;
+border-radius:10px;
 `;
 
 const buttonPrimary=css`
@@ -22,18 +24,18 @@ background:transparent;
 box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 `;
 
-const buttonSize = {
+const sizeTheme = {
   small: css`
     font-size:12px;
-    padding:10px 16px;
+    padding:10px 12px;
   `,
   medium: css`
   font-size:16px;
-  padding: 11px 20px;
+  padding: 11px 30px;
   `,
   large: css`
   font-size: 24px;
-  padding: 12px 24px;
+  padding: 12px 50px;
   `
 };
 
@@ -57,7 +59,7 @@ export const Button = ({
     return (
       <button
         type="button"
-        css={[button, mode,buttonSize[size]]}
+        css={[button, mode,sizeTheme[size]]}
         style={{ backgroundColor }}
         {...props}
       >
