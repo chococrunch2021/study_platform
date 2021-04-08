@@ -1,5 +1,15 @@
 {
     "presets": [
+      "@emotion/babel-preset-css-prop",
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "@babel/preset-typescript",
       [
         "next/babel",
         {
@@ -10,5 +20,5 @@
         }
       ]
     ],
-    "plugins": ["@emotion/babel-plugin"]
+    "plugins": ["@emotion"]
   }
