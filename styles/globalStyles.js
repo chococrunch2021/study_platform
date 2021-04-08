@@ -2,8 +2,8 @@ import { css } from '@emotion/react'
 import emotionReset from 'emotion-reset';
 export const globalStyle=css`
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Montserrat:wght@400;700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Almendra&family=Montserrat:wght@400;700&family=Nanum+Gothic&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
     ${emotionReset};
     
     html,

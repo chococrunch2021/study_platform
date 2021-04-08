@@ -22,7 +22,7 @@ background:transparent;
 box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 `;
 
-const buttonSize = {
+const sizeTheme = {
   small: css`
     font-size:12px;
     padding:10px 16px;
@@ -57,7 +57,7 @@ export const Button = ({
     return (
       <button
         type="button"
-        css={[button, mode,buttonSize[size]]}
+        css={[button, mode,sizeTheme[size]]}
         style={{ backgroundColor }}
         {...props}
       >
