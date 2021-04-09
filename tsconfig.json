@@ -17,7 +17,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "types": ["@emotion/react/types/css-prop"]
+    "types": ["@emotion/react/types/css-prop"],
+    "baseUrl": "./",
+    "paths": {
+      "@story/*":["stories/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
