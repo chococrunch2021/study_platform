@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/react';
-
+import {sizeTheme} from '@story/theme/theme'
 const button=css`
 font-family: 'Almendra', serif;
 font-weight:400;
@@ -23,22 +23,6 @@ color:#333;
 background:transparent;
 box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 `;
-
-const sizeTheme = {
-  small: css`
-    font-size:12px;
-    padding:10px 12px;
-  `,
-  medium: css`
-  font-size:16px;
-  padding: 11px 30px;
-  `,
-  large: css`
-  font-size: 24px;
-  padding: 12px 50px;
-  `
-};
-
 
 export interface ButtonProps {
     primary?: boolean;
