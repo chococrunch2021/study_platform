@@ -1,6 +1,5 @@
 import React from 'react';
 import { css } from '@emotion/react';
-import {sizeTheme} from 'components/theme/theme'
 import styled from '@emotion/styled'
 import Link from 'next/link';
 
@@ -10,12 +9,6 @@ const flexStyles=css`
     align-items:center;
 `;
 
-const Container=styled.nav`
-    ${flexStyles};
-    width:100%;
-    height:70px;
-    justify-content:flex-end;
-`;
 
 const LinkBox=styled.li`
     ${flexStyles};
