@@ -1,8 +1,8 @@
 import React from 'react'
-import Home from 'components/Home'
+import { Button } from 'components/button/Button'
 function Index() {
     return (
-        <Home/>
+        <Button label="test"/>
     )
 }
 

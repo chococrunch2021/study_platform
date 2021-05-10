@@ -1,6 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { NavLink, NavLinkProps } from '@story/link/NavLink';
+import { NavLink, NavLinkProps } from 'components/link/NavLink';
 
 export default {
   title: 'Component/NavLink',

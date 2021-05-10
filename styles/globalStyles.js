@@ -24,5 +24,20 @@ export const globalStyle=css`
     font-family:'Montserrat';
     outline:none;
     }
+// 인터렉티브 웹 추가 설정
+    html{
+        font-size:14px;
+    }
+
+    body{
+        overflow-x:hidden;
+        color:rgb(29,29,31);
+        letter-spacing:-0.05em;
+        background:#fff;
+    }
+
+    p{
+        line-height:1.6;
+    }
 
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/react';
-import {sizeTheme} from '@story/theme/theme'
+import {sizeTheme} from 'components/theme/theme'
 const button=css`
 font-family: 'Almendra', serif;
 font-weight:400;

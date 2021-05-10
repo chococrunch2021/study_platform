@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { css } from '@emotion/react'
-import {fontTheme} from '@story/theme/theme'
+import {fontTheme} from 'components/theme/theme'
 export interface NavLinkProps{
     url:string;
     font?:'montserrat'|'almendra'|'nanumgothic';

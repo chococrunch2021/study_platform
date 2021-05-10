@@ -1,5 +1,5 @@
 import React from 'react'
-import {fontTheme} from '@story/theme/theme'
+import {fontTheme} from 'components/theme/theme'
 
 
 export interface TitleProps{

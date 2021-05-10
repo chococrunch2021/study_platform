@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/react';
-import {sizeTheme} from '@story/theme/theme'
+import {sizeTheme} from 'components/theme/theme'
 import styled from '@emotion/styled'
 import Link from 'next/link';
 
