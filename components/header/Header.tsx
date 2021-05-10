@@ -2,6 +2,7 @@ import React from 'react';
 import { css } from '@emotion/react';
 import styled from '@emotion/styled'
 import Link from 'next/link';
+import {fontTheme} from 'components/theme/theme'
 
 const flexStyles=css`
     width:100%;
@@ -24,12 +25,17 @@ const LinkBox=styled.li`
     
 `;
 
+interface HeaderProps{
+  font?:'montserrat'|'almendra'|'nanumgothic';
+}
+
 export const Header = ({
+  font="montserrat",
     ...props
-  }) => {
+}: HeaderProps) => {
 
     return (
-          <LinkBox {...props}>
+          <LinkBox {...props} css={[fontTheme[font]]}>
             <Link href="/">HOME</Link>
             <Link href="/login">LOG IN</Link>
             <Link href="/about">우쥬스터디란?</Link>
